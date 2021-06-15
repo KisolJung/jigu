@@ -1,0 +1,65 @@
+wrapper{display: block; margin-left: auto; margin-right: auto; text-align: center; width: 100%;}
+section{display: grid; grid-auto-flow: column; align-content: center; justify-items: center;}
+a{text-decoration: none; color: #582D2D;}
+.box{background-color: lime; padding: 0.5em; margin: 1em;}
+.menu{display : inline-block; margin: 0; padding: 0;}
+.smallmenu{margin-left : 1em; margin-right: 1em;}
+
+.section {list-style-type: none; text-align: center; margin: 0; padding: 0;}
+
+.section li {
+    background-color: #bbbbff;
+    display: inline-block;
+    padding: 0px;
+    margin: 1em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: background-color 0.5s;
+}
+.section li:hover {
+    background-color: #ffbbbb;
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* 메인 이미지 */
+#main_img_bar { height: 250px !important; text-align: center; background-color: #142D4C !important; }
+#main_img_bar img { margin-top: 15px;}
+
+/* 메인 콘텐트 */
